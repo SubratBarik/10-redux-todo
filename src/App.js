@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import AddTodo from './components/AddTodo';
 import Todos from './components/Todos';
@@ -10,9 +9,6 @@ function App() {
     <>
       <Provider store={store}>
         <h1>Learning Redux Tool Kit with ToDo</h1>
-        <div>
-          
-        </div>
         <AddTodo />
         <Todos />
       </Provider>
