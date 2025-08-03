@@ -1,0 +1,23 @@
+import logo from './logo.svg';
+import './App.css';
+import AddTodo from './components/AddTodo';
+import Todos from './components/Todos';
+import { Provider } from 'react-redux';
+import { store } from './app/store';
+
+function App() {
+  return (
+    <>
+      <Provider store={store}>
+        <h1>Learning Redux Tool Kit with ToDo</h1>
+        <div>
+          
+        </div>
+        <AddTodo />
+        <Todos />
+      </Provider>
+    </>
+  );
+}
+
+export default App;
