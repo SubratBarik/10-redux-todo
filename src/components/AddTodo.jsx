@@ -14,7 +14,7 @@ function AddTodo() {
             setWarning('Please enter a task!');
             return;
         } // Prevent submission if input is empty
-        
+       
         dispatch(addTodo(trimmedInput))
         setInput('');
         setWarning(''); // Clear warning after successful submission
